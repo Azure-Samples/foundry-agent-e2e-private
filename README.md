@@ -309,12 +309,3 @@ Authorized use of Microsoft trademarks or logos is subject to and must follow
 Use of Microsoft trademarks or logos in modified versions of this project must
 not cause confusion or imply Microsoft sponsorship. Any use of third-party
 trademarks or logos is subject to those third parties' policies.
-
-## Attribution
-
-Originally developed in
-[georgeollis/foundry-agent-service-remote-mcp](https://github.com/georgeollis/foundry-agent-service-remote-mcp)
-and adapted here for Azure Samples.
-Based on Microsoft's [Foundry infrastructure samples](https://github.com/microsoft-foundry/foundry-samples)
-and Azure Samples' [pet-insurance MCP server](https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/ai-foundry-toolbox/mcp-servers/pet-insurance).
-See [NOTICE](NOTICE) and the preserved licenses. This repository is MIT licensed.
