@@ -17,7 +17,7 @@ urlFragment: foundry-agent-e2e-private
 
 [![Validate sample](https://github.com/Azure-Samples/foundry-agent-e2e-private/actions/workflows/validate.yml/badge.svg)](https://github.com/Azure-Samples/foundry-agent-e2e-private/actions/workflows/validate.yml)
 
-A reproducible development environment based on Microsoft Foundry **sample 15**:
+A reproducible Microsoft Foundry development environment with
 two peered virtual networks, private service endpoints, shared DNS, NAT egress,
 a Windows 11 workstation behind Azure Bastion, and separate Python MCP and
 OpenAPI services on Azure Functions Flex Consumption.
@@ -32,8 +32,7 @@ Review the [boundaries and costs](#boundaries-and-costs) before deploying.
 
 **Validation scope:** CI checks source code, deployment-script behavior, and
 template reproducibility without Azure resources. It does not validate a live
-agent-to-tool call. The infrastructure retains its pinned sample 15 ancestry;
-the current upstream reference for private tools is
+agent-to-tool call. The current upstream reference for private tools is
 [sample 19 and its testing guide](https://github.com/microsoft-foundry/foundry-samples/tree/main/infrastructure/infrastructure-setup-bicep/19-private-network-agent-tools).
 Complete the [agent walkthroughs](docs/deployment.md#mcp-tool-in-foundry) in your
 target environment before relying on private tool connectivity.
@@ -243,7 +242,7 @@ infra\
   main.bicep                  Subscription-scoped entrypoint
   main.bicepparam             Region and environment configuration
   modules\                   Network, access, Function, roles, tool connections
-  foundry\                   Trimmed, adapted upstream sample 15 modules
+  foundry\                   Adapted Microsoft Foundry infrastructure modules
   sources.json               Pinned upstream source revisions
 azuredeploy.json             Generated, self-contained portal deployment template
 scripts\
@@ -316,6 +315,6 @@ trademarks or logos is subject to those third parties' policies.
 Originally developed in
 [georgeollis/foundry-agent-service-remote-mcp](https://github.com/georgeollis/foundry-agent-service-remote-mcp)
 and adapted here for Azure Samples.
-Based on Microsoft's [Foundry sample 15](https://github.com/microsoft-foundry/foundry-samples/tree/main/infrastructure/infrastructure-setup-bicep/15-private-network-standard-agent-setup)
+Based on Microsoft's [Foundry infrastructure samples](https://github.com/microsoft-foundry/foundry-samples)
 and Azure Samples' [pet-insurance MCP server](https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/ai-foundry-toolbox/mcp-servers/pet-insurance).
 See [NOTICE](NOTICE) and the preserved licenses. This repository is MIT licensed.

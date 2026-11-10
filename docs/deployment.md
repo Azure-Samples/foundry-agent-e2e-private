@@ -260,7 +260,7 @@ python -m venv .venv
 | Validation receipt rejected | Rerun validation with unchanged intended arguments and review the new preview |
 
 Deleting the environment is destructive and is intentionally not automated.
-Consult the [upstream sample's capability-host cleanup guidance](https://github.com/microsoft-foundry/foundry-samples/tree/main/infrastructure/infrastructure-setup-bicep/15-private-network-standard-agent-setup#account-deletion-prerequisites-and-cleanup-guidance)
+Consult the [upstream capability-host cleanup guidance](https://github.com/microsoft-foundry/foundry-samples/tree/main/infrastructure/infrastructure-setup-bicep/19-private-network-agent-tools#account-deletion-prerequisites-and-cleanup-guidance)
 before deleting Foundry resources. Then confirm the subscription and resource
 group against your deployment outputs and delete the sample's resource group:
 

@@ -67,7 +67,7 @@ Foundry VNet. This regional split is configurable, not a promise of capacity.
 | Each Function's user-assigned identity | Blob Data Owner and Queue Data Contributor on its own storage account |
 | VM system-assigned identity | Website Contributor on each Function, for private publishing |
 | Operator | Foundry User on the account, VM Administrator Login on the VM, Blob Reader on Function storage |
-| Foundry project identity | Scoped Storage, Search, Cosmos DB, registry pull, and monitoring roles from sample 15 |
+| Foundry project identity | Scoped Storage, Search, Cosmos DB, registry pull, and monitoring roles |
 
 Storage does not allow shared keys or anonymous blobs. The VM's local
 administrator password is generated and stored only in a local DPAPI-encrypted

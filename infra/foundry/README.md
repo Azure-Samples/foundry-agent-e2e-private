@@ -1,7 +1,7 @@
-# Vendored Foundry sample 15
+# Microsoft Foundry infrastructure modules
 
 This directory contains the reachable Bicep modules from Microsoft's
-[private-network standard-agent sample](https://github.com/microsoft-foundry/foundry-samples/tree/main/infrastructure/infrastructure-setup-bicep/15-private-network-standard-agent-setup).
+[Foundry infrastructure samples](https://github.com/microsoft-foundry/foundry-samples).
 The source revision is recorded in `..\sources.json`; the original MIT license
 is preserved in `LICENSE`.
 
