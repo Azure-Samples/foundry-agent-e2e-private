@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a problem with this sample. Do not report vulnerabilities here.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report vulnerabilities privately using SECURITY.md. Do not include
+        credentials, deployment outputs, subscription identifiers, or customer data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include commands and sanitized error messages.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, PowerShell, Azure CLI, Bicep and Python versions, and the sample commit.
+    validations:
+      required: true
